@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import bgStartMenu from "@/assets/bg-start-menu.jpg";
 
 type StartMenuProps = {
   onStart: () => void;
@@ -6,8 +7,12 @@ type StartMenuProps = {
 
 export const StartMenu = ({ onStart }: StartMenuProps) => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-primary/20 via-background to-accent/20">
-      <div className="animate-fade-in text-center space-y-8 px-4">
+    <div 
+      className="flex min-h-screen items-center justify-center bg-cover bg-center relative"
+      style={{ backgroundImage: `url(${bgStartMenu})` }}
+    >
+      <div className="absolute inset-0 bg-black/20" />
+      <div className="animate-fade-in text-center space-y-8 px-4 relative z-10">
         <div className="space-y-4">
           <h1 className="text-6xl md:text-7xl font-bold text-foreground tracking-tight">
             Moments Between
