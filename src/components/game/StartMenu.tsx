@@ -50,7 +50,7 @@ export const StartMenu = ({ onStart }: StartMenuProps) => {
 
           <div className="pt-8 text-sm text-muted-foreground space-y-2">
             <p>🎮 Use choices to shape your story</p>
-            <p>⏱️ ~10 minutes playtime</p>
+            <p>Made by Jessa Coronado</p>
           </div>
         </div>
       </div>
