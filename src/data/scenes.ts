@@ -43,8 +43,8 @@ export const scenes: Scene[] = [
     id: "morning-2a",
     background: "bedroom",
     mood: "tense",
-    speaker: "Alex",
-    text: "Just five more minutes... Wait, what time is it? 7:55?! I have class at 8:15!",
+    speaker: "Jean",
+    text: "Just five more minutes... Wait, what time is it? 7:55?! I have Data Structures at 8:15!",
     choices: [
       {
         text: "Rush out without breakfast",
@@ -63,8 +63,8 @@ export const scenes: Scene[] = [
     id: "morning-2b",
     background: "bedroom",
     mood: "calm",
-    speaker: "Alex",
-    text: "A good start to the day. I have time for a proper breakfast and can even review my notes before class.",
+    speaker: "Jean",
+    text: "A good start to the day. I have time for breakfast and maybe review those algorithm notes... even though I'm not sure I fully understand them.",
     choices: [
       {
         text: "Take your time and enjoy the morning",
@@ -107,7 +107,7 @@ export const scenes: Scene[] = [
     background: "hallway",
     mood: "calm",
     speaker: "Jordan",
-    text: "Oh, hey Alex... Yeah, I'm just worried about the presentation today. I didn't finish my part. Thanks for asking though.",
+    text: "Oh, hey Jean... Yeah, I'm just worried about the presentation today. I didn't finish my part. Thanks for asking though.",
     choices: [
       {
         text: "Offer to help during lunch",
@@ -246,8 +246,8 @@ export const scenes: Scene[] = [
     id: "rooftop-reflect-relationships",
     background: "rooftop",
     mood: "calm",
-    speaker: "Alex",
-    text: "Did I do enough for the people around me? Jordan seemed so worried... I hope I made the right choices. Sometimes helping others helps me too.",
+    speaker: "Jean",
+    text: "Did I do enough for the people around me? Jordan seemed so worried... I wanted to help but I wasn't sure how. It's always hard for me to reach out, even when I care.",
     choices: [
       {
         text: "Feel at peace with your decisions",
@@ -259,8 +259,8 @@ export const scenes: Scene[] = [
     id: "rooftop-reflect-stress",
     background: "rooftop",
     mood: "tense",
-    speaker: "Alex",
-    text: "Everything feels like too much sometimes. The deadlines, the expectations... When did everything become so overwhelming? I need to find balance.",
+    speaker: "Jean",
+    text: "Everything feels like too much sometimes. The programming assignments, the exams I barely pass... I get high scores sometimes but I still feel like I don't understand anything. Am I really cut out for Computer Science?",
     choices: [
       {
         text: "Accept that tomorrow is a new day",
@@ -272,8 +272,8 @@ export const scenes: Scene[] = [
     id: "rooftop-reflect-honesty",
     background: "rooftop",
     mood: "calm",
-    speaker: "Alex",
-    text: "Was I true to myself today? Or did I just go along with what seemed easiest? I want to live authentically, even when it's hard.",
+    speaker: "Jean",
+    text: "Was I true to myself today? Or did I just avoid things like I always do? I want to be more open with people, to let them in... but it's so hard when you're scared of getting hurt.",
     choices: [
       {
         text: "Commit to being more honest going forward",
