@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import charAlex from "@/assets/char-alex.png";
+import charJean from "@/assets/char-jean.png";
 import charRiley from "@/assets/char-riley.png";
 import charJamie from "@/assets/char-jamie.png";
 import charCasey from "@/assets/char-casey.png";
@@ -11,7 +11,7 @@ type DialogueBoxProps = {
 };
 
 const characterPortraits: Record<string, string> = {
-  "Alex (You)": charAlex,
+  "Jean": charJean,
   "Riley": charRiley,
   "Jamie": charJamie,
   "Casey": charCasey,
